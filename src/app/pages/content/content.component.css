@@ -1,0 +1,65 @@
+.container__content {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.content__cover > img {
+  border: 5px solid #006437; /* Verde do Palmeiras */
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.content__title {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content__title h1 {
+  color: #006437; 
+  font-size: 2.2rem;
+}
+
+.content__title hr {
+  border: 2px solid #006437;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.content__description {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #006437;
+  font-weight: bold;
+}
+
+.match-details {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border-left: 4px solid #006437;
+}
+
+.match-details h3 {
+  color: #006437;
+  margin-bottom: 15px;
+}

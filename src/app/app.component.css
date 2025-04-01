@@ -1,0 +1,12 @@
+header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #006437; /* Verde do Palmeiras */
+    padding: 15px 0;
+  }
+  
+  router-outlet {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 100px);
+  }

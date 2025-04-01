@@ -1,0 +1,21 @@
+<div class="container__content">
+  <div class="content__cover">
+    <img [src]="photoCover" alt="Imagem da notícia">
+  </div>
+  <div class="content__title">
+    <h1>{{ contentTitle }}</h1>
+    <hr />
+  </div>
+  <div class="content__description">
+    <a [routerLink]="['']" class="back-link">← VOLTAR</a>
+    <p>{{ contentDescription }}</p>
+    
+    <div class="match-details" *ngIf="matchDetails">
+      <h3>DETALHES DA FINAL</h3>
+      <p><strong>Data:</strong> {{ matchDetails.date }}</p>
+      <p><strong>Local:</strong> {{ matchDetails.stadium }}</p>
+      <p><strong>Placar:</strong> {{ matchDetails.score }}</p>
+      <p><strong>Gols:</strong> {{ matchDetails.goals }}</p>
+    </div>
+  </div>
+</div>
