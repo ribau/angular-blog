@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { palmeirasFinals } from '../../data/palmeirasFinals';
 
-
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
@@ -16,9 +15,7 @@ export class ContentComponent implements OnInit {
   matchDetails: any = null;
   private id: string | null = "0";
 
-  constructor(
-    private route: ActivatedRoute
-  ) { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(value => {
@@ -37,4 +34,5 @@ export class ContentComponent implements OnInit {
       this.matchDetails = result.matchDetails || null;
     }
   }
+
 }

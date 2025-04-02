@@ -1,32 +1,45 @@
 .container__menu-title {
   color: white;
   text-align: center;
-  background-color: #006437; 
+  background-color: #006437;
   padding: 20px 0;
+  line-height: 1; 
 }
 
 .container__menu-title > h1 {
-  margin: 15px 0;
+  margin: 0; 
+  padding: 10px 0;
   font-size: 6rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #fff;
+  text-shadow: 
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000;
+  line-height: 0.9; 
 }
 
 .container__menu-title > h2 {
+  margin: 0; 
+  padding: 5px 0 15px; 
   font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  margin-top: -20px;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #fff;
+  text-shadow: 
+    1.5px 1.5px 0 #000,
+    -1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000;
+  line-height: 1; 
 }
 
 .container__menu-title > hr {
-  margin: 5px auto;
+  margin: 0 auto; 
   width: 80%;
-  border: 1px solid #ffffff;
-  opacity: 0.5;
+  border: 1px solid rgba(255,255,255,0.5);
 }

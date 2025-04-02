@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-big-card',
   templateUrl: './big-card.component.html',
   styleUrls: ['./big-card.component.css'],
-  standalone: false,
+  standalone: false, 
 })
 export class BigCardComponent {
   @Input() photoCover: string = "";
